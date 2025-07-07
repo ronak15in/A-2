@@ -120,7 +120,7 @@ const Form = () => {
   };
   const handelDelete = (item) => {
     if (
-      setIsOpen.window.confirm("তুমি কি সত্যিই এই কাজটা ডিলিট করতে চাও? আরেকবার ভাবো!")
+      window.confirm("তুমি কি সত্যিই এই কাজটা ডিলিট করতে চাও? আরেকবার ভাবো!")
     ) {
       remove(ref(db, "toDoList/" + item.id));
     }
