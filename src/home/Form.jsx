@@ -273,7 +273,7 @@ const Form = () => {
             ) : (
               <button
                 type="submit"
-                className="w-full bg-blue-500 text-white px-4 py-2 rounded-lg mt-3"
+                className="w-full bg-blue-500 text-white px-4 py-2 rounded-lg mt-3 hover:bg-red-600"
               >
                 Add
               </button>
@@ -282,7 +282,7 @@ const Form = () => {
           <div className=" flex items-center justify-center m-auto">
             <button
               onClick={() => setShowTable(!showTable)}
-              className="w-full bg-blue-500 text-white px-4 py-2 rounded-lg mt-3"
+              className="w-full bg-blue-500 text-white px-4 py-2 rounded-lg mt-3 hover:bg-red-600"
             >
               {showTable ? "Hide To-Do List" : "To-Do List"}
             </button>
