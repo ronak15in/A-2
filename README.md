@@ -69,7 +69,10 @@ To-Do-List/
 
 Contributions are welcome! Please follow these steps:
 
-1. Fork the repository.....
+<<<<<<< HEAD
+=======
+1. Fork the repository and fetch it .
+>>>>>>> ronak
 2. Create a new branch: `git checkout -b feature-name`.
 3. Make your changes and commit them: `git commit -m 'Add new feature'`.
 4. Push to the branch: `git push origin feature-name`.
@@ -78,6 +81,9 @@ Contributions are welcome! Please follow these steps:
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-This project is licensed under the MIT License and i am good
+<<<<<<< HEAD
 
 
+=======
+this is a latest change 
+>>>>>>> ronak
