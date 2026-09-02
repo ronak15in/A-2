@@ -12,6 +12,8 @@ This app allows users to manage their daily tasks effectively.
 - Responsive design for both desktop and mobile devices.
 - Real-time updates with fast performance.
 
+##
+this was the change made by me to demonstrate collobaration
 ## Technologies Used
 
 - React
