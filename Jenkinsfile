@@ -1,17 +1,24 @@
-stage('Install Dependencies') {
-    steps {
-        sh 'npm install'
-    }
-}
+pipeline {
+    agent any
 
-stage('Build') {
-    steps {
-        sh 'npm run build'
-    }
-}
+    stages {
 
-stage('Automated Testing') {
-    steps {
-        sh 'npm test'
+        stage('Install Dependencies') {
+            steps {
+                sh 'npm install'
+            }
+        }
+
+        stage('Run Tests') {
+            steps {
+                sh 'npm test'
+            }
+        }
+
+        stage('Build') {
+            steps {
+                sh 'npm run build'
+            }
+        }
     }
 }
